@@ -28,7 +28,7 @@ def get_agents():
     # 配置 Reddit
     reddit = praw.Reddit(
         client_id=REDDIT_CLIENT_ID,
-        client_secret=RED🛍️_CLIENT_SECRET,
+        client_secret=RED_CLIENT_SECRET,
         user_agent=REDDIT_USER_AGENT
     )
     return model, reddit
